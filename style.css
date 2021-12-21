@@ -1,0 +1,21 @@
+span.nav {
+  color: hsl(208deg 47% 70%);
+}
+h6 {
+  font-family: sans-serif;
+}
+span.status {
+  color: #ff725a;
+  font-weight: 400;
+  font-size: small;
+}
+h4.order {
+  font-family: sans-serif;
+  font-size: small;
+  /* font-weight: 500; */
+}
+span.date {
+  color: hsl(0deg 0% 43%);
+  font-size: small;
+  font-weight: 400;
+}
