@@ -19,3 +19,79 @@ span.date {
   font-size: small;
   font-weight: 400;
 }
+img {
+  width: 47px;
+}
+.proudectDetails {
+  display: flex;
+  justify-content: space-around;
+}
+.priceDet {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  width: 90%;
+  padding: 30px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.priceDetails {
+  padding: 37px;
+}
+.proudect {
+  background-color: #ffffff;
+  border: solid 2px #f6f8fa;
+  width: 70%;
+  border-radius: 3px;
+  color: #585858;
+}
+.address {
+  background-color: #f8f9fb;
+  border-radius: 4px;
+  width: 20%;
+  color: #737373;
+}
+.shippingAddress {
+  padding: 8px;
+}
+.deliveryMethod {
+  padding: 8px;
+}
+.paymentMethod {
+  padding: 8px;
+}
+.shippingAddress {
+  padding: 8px;
+  /* text-decoration: none; */
+  /* border-bottom: groove 1px #f7f9fb; */
+}
+.line {
+  background-color: #a4a6a7;
+  width: 89%;
+  height: 1px;
+  margin-left: 13px;
+}
+h4.emailAndPhone {
+  color: #36383a;
+}
+/* .line {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a4a6a7;
+  width: 89%;
+  height: 1px;
+} */
+.line2 {
+  background-color: #a4a6a7;
+  width: 96%;
+  height: 1px;
+  margin-left: 12px;
+}
