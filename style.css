@@ -29,6 +29,7 @@ img {
 .priceDet {
   display: flex;
   justify-content: space-between;
+  margin-top: -29px;
 }
 .image {
   display: flex;
@@ -94,4 +95,156 @@ h4.emailAndPhone {
   width: 96%;
   height: 1px;
   margin-left: 12px;
+}
+button.btn {
+  background: none;
+  border-radius: 32px;
+  border: solid 2px #7abdb8;
+
+  color: #7abdb8;
+  padding: 6px 29px;
+}
+.cancelOrder {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+p.huawei {
+  margin-left: 18px;
+}
+.lastDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cancelOrder {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  color: #d1566a;
+}
+.buttons {
+  margin-left: 4%;
+}
+.pdf {
+  background: none;
+  border-radius: 32px;
+  border: solid 2px #7abdb8;
+  margin-left: 15px;
+  color: #7abdb8;
+  padding: 6px 29px;
+}
+.topPage {
+  margin-left: 12;
+  padding: 53px 0px 0px 60px;
+}
+@media screen and (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+  span.status {
+    margin-left: 58px;
+    color: #ff725a;
+    font-weight: 400;
+    font-size: small;
+  }
+  .container {
+    width: 90%;
+    padding: 30px;
+    display: initial;
+    justify-content: center;
+  }
+  .proudect {
+    background-color: #ffffff;
+    border: solid 3px #f3f4f7;
+    width: 93%;
+    border-radius: 3px;
+    color: #585858;
+    margin-left: 7px;
+  }
+  .text {
+    display: none;
+  }
+  .proudectDetails {
+    display: grid;
+  }
+  .color {
+    display: flex;
+    justify-content: space-around;
+  }
+  .price {
+    display: flex;
+    justify-content: space-around;
+  }
+  .quantity {
+    display: flex;
+    justify-content: space-around;
+  }
+  .capacity {
+    display: flex;
+    justify-content: space-around;
+  }
+  .address {
+    background-color: #f8f9fb;
+    border-radius: 4px;
+    width: 100%;
+    color: #737373;
+  }
+  .lastDiv {
+    display: grid;
+    width: 100%;
+  }
+  .buttons {
+    margin-left: 4%;
+    width: 100%;
+  }
+  .cancelOrder {
+    display: flex;
+    justify-content: space-around;
+    width: 64%;
+    color: #d1566a;
+    margin-left: 12px;
+    padding: 47px;
+  }
+  html {
+    background-color: #ececec;
+  }
+  .big_div {
+    background-color: #ffffff;
+  }
+  img {
+    width: 47px;
+    margin-right: 18px;
+    margin-top: 8px;
+  }
+  .color {
+    /* display: flex;
+    justify-content: space-around; */
+    margin-left: 43px;
+  }
+  .capacity {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 49px;
+  }
+  .price {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 43px;
+  }
+  .quantity {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+  }
+  .topPage {
+    margin-left: 12;
+    padding: 49px 0px 0px 10px;
+  }
+  .line2 {
+    background-color: #f3f4f6;
+    width: 96%;
+    height: 3px;
+    margin-left: 4px;
+  }
 }
